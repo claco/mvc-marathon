@@ -1,0 +1,12 @@
+Z:\aspnetmvc\BurningPlate\bin\BurningPlate.dll
+Z:\aspnetmvc\BurningPlate\bin\BurningPlate.pdb
+Z:\aspnetmvc\BurningPlate\bin\BurningPlate.xml
+Z:\aspnetmvc\BurningPlate\bin\System.Web.Abstractions.dll
+Z:\aspnetmvc\BurningPlate\bin\System.Web.Mvc.dll
+Z:\aspnetmvc\BurningPlate\bin\System.Web.Routing.dll
+Z:\aspnetmvc\BurningPlate\obj\Debug\ResolveAssemblyReference.cache
+Z:\aspnetmvc\BurningPlate\obj\Debug\BurningPlate.Resources.resources
+Z:\aspnetmvc\BurningPlate\obj\Debug\BurningPlate.vbproj.GenerateResource.Cache
+Z:\aspnetmvc\BurningPlate\obj\Debug\BurningPlate.dll
+Z:\aspnetmvc\BurningPlate\obj\Debug\BurningPlate.xml
+Z:\aspnetmvc\BurningPlate\obj\Debug\BurningPlate.pdb
