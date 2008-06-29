@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BurningPlate.Views.Shared.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title><%= Html.Encode(ViewData["Title"]) %></title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="page">
+
+        <div id="header">
+            <p id="logo">
+                <a href="">My Sample MVC Application</a>
+            </p>
+            <ul id="menu">
+                <li>
+                    <%= Html.ActionLink("Home", "Index", "Home")%>
+                </li>
+                <li>
+                    <%= Html.ActionLink("About Us", "About", "Home")%>
+                </li>
+            </ul>
+        </div>
+
+        <div id="main">
+            <div id="content">
+            
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            
+            </div>
+            <div id="footer">
+                <p>
+                    My Sample MVC Application &copy; Copyright 2008
+                </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
