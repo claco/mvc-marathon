@@ -28,7 +28,7 @@ BurningPlate::Controller::Root - Root Controller for BurningPlate
 
 sub index :Path :Args(0) {
     my ( $self, $c ) = @_;
-
+warn $c->model('DB::Restaurants')->search->count;
     # Hello World
     $c->response->body( $c->welcome_message );
 }

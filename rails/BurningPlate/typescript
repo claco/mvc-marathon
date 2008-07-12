@@ -1,0 +1,127 @@
+Script started on Tue Jul  8 22:00:56 2008
+mbp:~/mvc-marathon/rails/BurningPlate claco$ ls script
+about		destroy		performance	process		server
+console		generate	plugin		runner
+mbp:~/mvc-marathon/rails/BurningPlate claco$ cls
+bash: cls: command not found
+mbp:~/mvc-marathon/rails/BurningPlate claco$ cls
+bash: cls: command not found
+mbp:~/mvc-marathon/rails/BurningPlate claco$ rake
+(in /Users/claco/mvc-marathon/rails/BurningPlate)
+rake aborted!
+no such file to load -- sqlite3
+
+(See full trace by running task with --trace)
+mbp:~/mvc-marathon/rails/BurningPlate claco$ cls
+bash: cls: command not found
+mbp:~/mvc-marathon/rails/BurningPlate claco$ cls
+bash: cls: command not found
+mbp:~/mvc-marathon/rails/BurningPlate claco$ clear
+[H[2Jmbp:~/mvc-marathon/rails/BurningPlate claco$ rake --help
+rake [-f rakefile] {options} targets...
+
+Options are ...
+
+  --classic-namespace  (-C)
+      Put Task and FileTask in the top level namespace
+  --describe           (-D)
+      Describe the tasks (matching optional PATTERN), then exit.
+  --dry-run            (-n)
+      Do a dry run without executing actions.
+  --help               (-h)
+      0
+  --libdir=LIBDIR      (-I)
+      Include LIBDIR in the search path for required modules.
+  --nosearch           (-N)
+      Do not search parent directories for the Rakefile.
+  --prereqs            (-P)
+      Display the tasks and dependencies, then exit.
+  --quiet              (-q)
+      Do not log messages to standard output.
+  --rakefile           (-f)
+      Use FILE as the rakefile.
+  --rakelibdir=RAKELIBDIR (-R)
+      Auto-import any .rake files in RAKELIBDIR. (default is 'rakelib')
+  --require=MODULE     (-r)
+      Require MODULE before executing rakefile.
+  --silent             (-s)
+      Like --quiet, but also suppresses the 'in directory' announcement.
+  --tasks              (-T)
+      Display the tasks (matching optional PATTERN) with descriptions, then exit.
+  --trace              (-t)
+      Turn on invoke/execute tracing, enable full backtrace.
+  --verbose            (-v)
+      Log message to standard output (default).
+  --version            (-V)
+      Display the program version.
+mbp:~/mvc-marathon/rails/BurningPlate claco$ cls
+bash: cls: command not found
+mbp:~/mvc-marathon/rails/BurningPlate claco$ clear
+[H[2Jmbp:~/mvc-marathon/rails/BurningPlate claco$ rake migrate
+(in /Users/claco/mvc-marathon/rails/BurningPlate)
+rake aborted!
+Don't know how to build task 'migrate'
+
+(See full trace by running task with --trace)
+mbp:~/mvc-marathon/rails/BurningPlate claco$ cls
+bash: cls: command not found
+mbp:~/mvc-marathon/rails/BurningPlate claco$ cls
+bash: cls: command not found
+mbp:~/mvc-marathon/rails/BurningPlate claco$ clear
+[H[2Jmbp:~/mvc-marathon/rails/BurningPlate claco$ c fink list runby
+Information about 7038 packages read in 1 seconds.
+mbp:~/mvc-marathon/rails/BurningPlate claco$ fink list runby[1P
+Information about 7038 packages read in 1 seconds.
+     bioruby-rb18             1.2.1-1            Bioinformatics environment for ruby
+     mecab-ruby               0.93-2             Placeholder package for migration to mecab-rb
+     qtruby-mac-rb18          1.0.13-1           Qt bindings for ruby
+ i   ruby                     1.8.6-p114-1       Interpreted, object-oriented language (symlinks)
+     ruby16                   1.6.8-1011         Interpreted, object-oriented scripting language
+     ruby16-dev               1.6.8-1011         Ruby 1.6 development library
+     ruby16-shlibs            1.6.8-1011         Ruby 1.6 shared library
+ i   ruby18                   1.8.6-p114-1       Interpreted, object-oriented language (binaries)
+ i   ruby18-dev               1.8.6-p114-1       Interpreted, object-oriented language (mkmf.rb, *.h and *.dylib)
+ i   ruby18-shlibs            1.8.6-p114-1       Interpreted, object-oriented language (shared libraries)
+     ruby18-tcltk                                [virtual package]
+     ruby18-tcltk-x11         1.8.5-p12.1        Tcl/Tk (using X11) extensions for Ruby
+     rubycocoa-rb18           0.13.2-2           Ruby interface to Cocoa programming
+     rubyforge-rb18           1.0.0-1            Rubyforge automation
+     rubygems-rb16            1.1.1-1            Package management framework for Ruby (binaries)
+ i   rubygems-rb18            1.1.1-1            Package management framework for Ruby (binaries)
+     rubyosa-rb18             0.4.0-2            Apple Event Manager infrastructure bridge
+mbp:~/mvc-marathon/rails/BurningPlate claco$ gem install             cls
+bash: cls: command not found
+mbp:~/mvc-marathon/rails/BurningPlate claco$ cls
+bash: cls: command not found
+mbp:~/mvc-marathon/rails/BurningPlate claco$ clear
+[H[2Jmbp:~/mvc-marathon/rails/BurningPlate claco$ gem install sqlite3-ruby
+Bulk updating Gem source index for: http://gems.rubyforge.org/
+ERROR:  While executing gem ... (Errno::EACCES)
+    Permission denied - /sw/var/lib/gems/1.8/cache/sqlite3-ruby-1.2.2.gem
+mbp:~/mvc-marathon/rails/BurningPlate claco$ gem install sqlite3-ruby[4hs[4l[4hu[4l[4hd[4l[4ho[4l[4h [4l
+Password:
+Sorry, try again.
+Password:
+Bulk updating Gem source index for: http://gems.rubyforge.org/
+Building native extensions.  This could take a while...
+Successfully installed sqlite3-ruby-1.2.2
+1 gem installed
+Installing ri documentation for sqlite3-ruby-1.2.2...
+Installing RDoc documentation for sqlite3-ruby-1.2.2...
+mbp:~/mvc-marathon/rails/BurningPlate claco$ cls
+bash: cls: command not found
+mbp:~/mvc-marathon/rails/BurningPlate claco$ clear
+[H[2Jmbp:~/mvc-marathon/rails/BurningPlate claco$ rake migrate
+(in /Users/claco/mvc-marathon/rails/BurningPlate)
+rake aborted!
+Don't know how to build task 'migrate'
+
+(See full trace by running task with --trace)
+mbp:~/mvc-marathon/rails/BurningPlate claco$ cls
+bash: cls: command not found
+mbp:~/mvc-marathon/rails/BurningPlate claco$ cls
+bash: cls: command not found
+mbp:~/mvc-marathon/rails/BurningPlate claco$ exit
+exit
+
+Script done on Tue Jul  8 22:05:51 2008
