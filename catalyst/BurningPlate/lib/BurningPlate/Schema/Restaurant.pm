@@ -1,4 +1,4 @@
-package BurningPlate::Schema::Restaurants;
+package BurningPlate::Schema::Restaurant;
 use strict;
 use warnings;
 use base 'DBIx::Class';
