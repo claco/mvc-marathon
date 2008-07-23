@@ -20,6 +20,9 @@
                     <%= Html.ActionLink("Home", "Index", "Home")%>
                 </li>
                 <li>
+                    <%= Html.ActionLink("Restaurants", "Index", "Restaurants")%>
+                </li>
+                <li>
                     <%= Html.ActionLink("About Us", "About", "Home")%>
                 </li>
             </ul>

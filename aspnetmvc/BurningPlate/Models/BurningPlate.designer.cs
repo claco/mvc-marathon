@@ -119,7 +119,7 @@ namespace BurningPlate.Models
 			}
 		}
 		
-		[Column(Storage="_Name", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
+		[Column(Storage="_Name", DbType="VarChar(100) NOT NULL", CanBeNull=false)]
 		public string Name
 		{
 			get
