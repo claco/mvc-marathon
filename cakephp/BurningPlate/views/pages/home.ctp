@@ -1,5 +1,7 @@
 <h2>Sweet, "BurningPlate" got Baked by CakePHP!</h2>
 
+<a href="<?php echo Router::url(array('controller' => 'Restaurants', 'action' => 'index'));?>">Restaurants</a>
+
 <?php
 if(Configure::read() > 0):
 	Debugger::checkSessionKey();

@@ -57,7 +57,7 @@
  *
  */
 	if (!defined('CAKE_CORE_INCLUDE_PATH')) {
-		define('CAKE_CORE_INCLUDE_PATH', '/sw/cakephp');
+		define('CAKE_CORE_INCLUDE_PATH', '/usr/local/lib/cake');
 	}
 
 /**
