@@ -1,0 +1,5 @@
+<ul>
+[% FOREACH restaurant IN restaurants %]
+	<li>[% restaurant.name %]</li>
+[% END %]
+</ul>

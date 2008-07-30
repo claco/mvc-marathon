@@ -7,7 +7,7 @@ __PACKAGE__->config(
     schema_class => 'BurningPlate::Schema',
     connect_info => [
         'dbi:SQLite:burning_plate.db',
-        
+
     ],
 );
 
