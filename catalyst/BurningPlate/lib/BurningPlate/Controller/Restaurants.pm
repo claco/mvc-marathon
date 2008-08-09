@@ -4,10 +4,6 @@ use strict;
 use warnings;
 use parent 'Catalyst::Controller';
 
-__PACKAGE__->config(
-    model_name => 'Restaurant',    
-);
-
 =head1 NAME
 
 BurningPlate::Controller::Restaurants - Catalyst Controller
