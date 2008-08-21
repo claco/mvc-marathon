@@ -26,10 +26,15 @@ our $VERSION = '0.01';
 # with a external configuration file acting as an override for
 # local deployment.
 
-__PACKAGE__->config( name => 'BurningPlate' );
+__PACKAGE__->config( name => 'BurningPlate');
 
 # Start the application
-__PACKAGE__->setup(qw/-Debug ConfigLoader Static::Simple/);
+__PACKAGE__->setup(qw/
+    -Debug
+    ConfigLoader
+    +CatalystX::ListFramework::Builder
+    Static::Simple
+/);
 
 
 =head1 NAME
