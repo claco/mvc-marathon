@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace BurningPlate.Views.Home
+namespace BurningPlage.Views.Home
 {
     public partial class About : ViewPage
     {

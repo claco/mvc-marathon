@@ -84,7 +84,7 @@ first child of the left and right table columns */
 page width. Or, you can specify an exact pixel width. */
 .page
 {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -94,32 +94,25 @@ page width. Or, you can specify an exact pixel width. */
     position: relative;
     margin-bottom: 0px;
     color: #000;
-    padding: 0 0px 0 0;
+    padding: 0;
 }
 
-p#logo, h1#logo
+#header h1
 {
     font-weight: bold;
-    font-size: 24px !important;
-    padding: 10px 0;
+    padding: 5px 0;
     margin: 0;
-    color: #FFF;
+    color: #fff;
     border: none;
     line-height: 2em;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#logo a
-{
-    color: #FFF;
-    text-decoration: none;
     font-size: 32px !important;
 }
 
 #main
 {
     padding: 30px 30px 15px 30px;
-    background-color: #FFF;
+    background-color: #fff;
     margin-bottom: 30px;
     _height: 1px; /* only IE6 applies CSS properties starting with an underscrore */
 }
@@ -127,14 +120,9 @@ p#logo, h1#logo
 #footer
 {
     color: #999;
-    padding: 5px 0 0 0;
+    padding: 10px 0;
     text-align: center;
     line-height: normal;
-}
-
-#footer p
-{
-    padding: 5px 0;
     margin: 0;
     font-size: .9em;
 }
@@ -156,6 +144,15 @@ ul#menu li
     list-style: none;
 }
 
+ul#menu li#greeting
+{
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    color: #fff;
+}
+
 ul#menu li a
 {
     padding: 10px 20px;
@@ -168,7 +165,7 @@ ul#menu li a
 
 ul#menu li a:hover
 {
-    background-color: #FFF;
+    background-color: #fff;
     text-decoration: none;
 }
 
@@ -180,7 +177,7 @@ ul#menu li a:active
 
 ul#menu li.selected a
 {
-    background-color: #FFF;
+    background-color: #fff;
     color: #000;
 }
 
@@ -189,4 +186,59 @@ ul#menu li.selected a
 .clear
 {
     clear: both;
+}
+
+.error
+{
+    color:Red;
+}
+
+#menucontainer
+{
+    margin-top:40px;
+}
+
+#title
+{
+    display:block;
+    float:left;
+    text-align:left;
+}
+
+#logindisplay
+{
+    font-size:1.1em;
+    display:block;
+    text-align:right;
+    margin:10px;
+    color:White;
+}
+
+#logindisplay a:link
+{
+    color: white;
+    text-decoration: underline;
+}
+
+#logindisplay a:visited
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
 }

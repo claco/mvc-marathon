@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace BurningPlate
+namespace BurningPlage
 {
-    public class GlobalApplication : System.Web.HttpApplication
+    public class MvcApplication : System.Web.HttpApplication
     {
         public static void RegisterRoutes(RouteCollection routes)
         {

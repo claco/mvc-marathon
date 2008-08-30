@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BurningPlate.Views.Shared.Site" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BurningPlage.Views.Shared.Site" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -12,35 +12,44 @@
     <div class="page">
 
         <div id="header">
-            <p id="logo">
-                <a href="">My Sample MVC Application</a>
-            </p>
-            <ul id="menu">
-                <li>
-                    <%= Html.ActionLink("Home", "Index", "Home")%>
-                </li>
-                <li>
-                    <%= Html.ActionLink("Restaurants", "Index", "Restaurants")%>
-                </li>
-                <li>
-                    <%= Html.ActionLink("About Us", "About", "Home")%>
-                </li>
-            </ul>
+            <div id="title">
+                <h1>My Sample MVC Application</h1>
+            </div>
+              
+             <div id="logindisplay">
+                    <%
+                        if (Request.IsAuthenticated) {
+                    %>
+                            Welcome <b><%= Html.Encode(Page.User.Identity.Name) %></b>!
+                            [ <%=Html.ActionLink("Logout", "Logout", "Account") %> ]
+                    <%
+                        }
+                        else {
+                    %> 
+                            [ <%=Html.ActionLink("Login", "Login", "Account") %> ]
+                    <%
+                        }
+                    %>
+            </div> 
+            
+            <div id="menucontainer">
+            
+                <ul id="menu">              
+                    <li><%= Html.ActionLink("Home", "Index", "Home")%></li>
+                    <li><%= Html.ActionLink("Restaurants", "Index", "Restaurants")%></li>
+                    <li><%= Html.ActionLink("About Us", "About", "Home")%></li>
+                </ul>
+            
+            </div>
         </div>
 
         <div id="main">
-            <div id="content">
-            
-                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
-            
-            </div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
             <div id="footer">
-                <p>
-                    My Sample MVC Application &copy; Copyright 2008
-                </p>
+                My Sample MVC Application &copy; Copyright 2008
             </div>
         </div>
-
     </div>
 </body>
 </html>

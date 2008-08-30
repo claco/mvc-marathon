@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BurningPlate")]
+[assembly: AssemblyTitle("BurningPlage")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BurningPlate")]
+[assembly: AssemblyProduct("BurningPlage")]
 [assembly: AssemblyCopyright("Copyright ©  2008")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("408a0e15-303b-4a4d-8990-a2e06cd63d2c")]
+[assembly: Guid("8f98f50c-bff1-4ca0-9afc-4e2c35373346")]
 
 // Version information for an assembly consists of the following four values:
 //

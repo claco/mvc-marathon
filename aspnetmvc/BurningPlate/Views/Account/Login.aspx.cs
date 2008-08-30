@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace BurningPlage.Views.Shared
+namespace BurningPlage.Views.Account
 {
-    public partial class Site : System.Web.Mvc.ViewMasterPage
+    public partial class Login : ViewPage
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace BurningPlage.Views.Shared
 {
-    public partial class Site : System.Web.Mvc.ViewMasterPage
+    public partial class Error : ViewPage<HandleErrorInfo>
     {
     }
 }
