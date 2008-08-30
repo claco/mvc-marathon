@@ -1,7 +1,0 @@
-C:\Documents and Settings\claco\Desktop\BurningPlate\bin\BurningPlate.dll
-C:\Documents and Settings\claco\Desktop\BurningPlate\bin\BurningPlate.pdb
-C:\Documents and Settings\claco\Desktop\BurningPlate\bin\Microsoft.Web.Mvc.dll
-C:\Documents and Settings\claco\Desktop\BurningPlate\bin\System.Web.Mvc.dll
-C:\Documents and Settings\claco\Desktop\BurningPlate\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\claco\Desktop\BurningPlate\obj\Debug\BurningPlate.dll
-C:\Documents and Settings\claco\Desktop\BurningPlate\obj\Debug\BurningPlate.pdb
