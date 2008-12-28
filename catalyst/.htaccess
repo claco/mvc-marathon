@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /~claco/BurningPlate/catalyst/
+RewriteRule dispatch\.fcgi - [L]
+RewriteRule (.*) BurningPlate/script/dispatch.fcgi/$1 [L]

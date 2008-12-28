@@ -956,3 +956,34 @@ c2h7AAY6CkB1c2VkewA=--d4648cde4f274fc277128e84bf15d1fd76041b15
 Rendering template within layouts/restaurants
 Rendering restaurants/index
 Completed in 0.00988 (101 reqs/sec) | Rendering: 0.00382 (38%) | DB: 0.00051 (5%) | 200 OK [http://localhost/restaurants/]
+  [4;36;1mSQL (0.001223)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000179)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000225)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000209)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000382)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000067)[0m   [0mPRAGMA index_list("restaurants")[0m
+  [4;36;1mSQL (0.000118)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000162)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.026904)[0m   [0;1mCREATE TABLE "restaurants" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(100) NOT NULL, "created_at" datetime DEFAULT NULL NULL, "updated_at" datetime DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.000462)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001835)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.001584)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000159)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000078)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.001582)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20080731023309')[0m
+  [4;36;1mSQL (0.000403)[0m   [0;1mSELECT version FROM schema_migrations[0m

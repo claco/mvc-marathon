@@ -1,0 +1,67 @@
+  [4;36;1mSQL (0.000295)[0m   [0;1mSELECT count(*) AS count_all FROM "restaurants" [0m
+
+
+Processing RestaurantsController#create (for 0.0.0.0 at 2008-12-27 20:05:06) [POST]
+  Session ID: 
+  Parameters: {"restaurant"=>{}, "action"=>"create", "controller"=>"restaurants"}
+  [4;35;1mRestaurant Create (0.000000)[0m   [0mSQLite3::SQLException: restaurants.name may not be NULL: INSERT INTO "restaurants" ("name", "updated_at", "created_at") VALUES(NULL, '2008-12-27 20:05:06', '2008-12-27 20:05:06')[0m
+  [4;36;1mSQL (0.000203)[0m   [0;1mSELECT count(*) AS count_all FROM "restaurants" [0m
+  [4;35;1mRestaurant Load (0.000179)[0m   [0mSELECT * FROM "restaurants" WHERE ("restaurants"."id" = 953125641) [0m
+
+
+Processing RestaurantsController#destroy (for 0.0.0.0 at 2008-12-27 20:05:06) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"restaurants"}
+  [4;36;1mRestaurant Load (0.000173)[0m   [0;1mSELECT * FROM "restaurants" WHERE ("restaurants"."id" = 953125641) [0m
+  [4;35;1mRestaurant Destroy (0.000238)[0m   [0m DELETE FROM "restaurants"
+ WHERE "id" = 953125641
+[0m
+Redirected to http://test.host/restaurants
+Completed in 0.00131 (763 reqs/sec) | DB: 0.00178 (135%) | 302 Found [http://test.host/restaurants/953125641]
+  [4;36;1mSQL (0.000136)[0m   [0;1mSELECT count(*) AS count_all FROM "restaurants" [0m
+  [4;35;1mRestaurant Load (0.000180)[0m   [0mSELECT * FROM "restaurants" WHERE ("restaurants"."id" = 953125641) [0m
+
+
+Processing RestaurantsController#edit (for 0.0.0.0 at 2008-12-27 20:05:06) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"restaurants"}
+  [4;36;1mRestaurant Load (0.000197)[0m   [0;1mSELECT * FROM "restaurants" WHERE ("restaurants"."id" = 953125641) [0m
+Rendering template within layouts/restaurants
+Rendering restaurants/edit
+Completed in 0.00453 (220 reqs/sec) | Rendering: 0.00402 (88%) | DB: 0.00051 (11%) | 200 OK [http://test.host/restaurants/953125641/edit]
+
+
+Processing RestaurantsController#index (for 0.0.0.0 at 2008-12-27 20:05:06) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"restaurants"}
+  [4;35;1mRestaurant Load (0.000224)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/restaurants
+Rendering restaurants/index
+Completed in 0.00295 (339 reqs/sec) | Rendering: 0.00230 (78%) | DB: 0.00022 (7%) | 200 OK [http://test.host/restaurants]
+
+
+Processing RestaurantsController#new (for 0.0.0.0 at 2008-12-27 20:05:06) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"restaurants"}
+Rendering template within layouts/restaurants
+Rendering restaurants/new
+Completed in 0.00256 (390 reqs/sec) | Rendering: 0.00229 (89%) | DB: 0.00000 (0%) | 200 OK [http://test.host/restaurants/new]
+  [4;36;1mRestaurant Load (0.000179)[0m   [0;1mSELECT * FROM "restaurants" WHERE ("restaurants"."id" = 953125641) [0m
+
+
+Processing RestaurantsController#show (for 0.0.0.0 at 2008-12-27 20:05:06) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"restaurants"}
+  [4;35;1mRestaurant Load (0.000144)[0m   [0mSELECT * FROM "restaurants" WHERE ("restaurants"."id" = 953125641) [0m
+Rendering template within layouts/restaurants
+Rendering restaurants/show
+Completed in 0.00674 (148 reqs/sec) | Rendering: 0.00612 (90%) | DB: 0.00032 (4%) | 200 OK [http://test.host/restaurants/953125641]
+  [4;36;1mRestaurant Load (0.000317)[0m   [0;1mSELECT * FROM "restaurants" WHERE ("restaurants"."id" = 953125641) [0m
+
+
+Processing RestaurantsController#update (for 0.0.0.0 at 2008-12-27 20:05:06) [PUT]
+  Session ID: 
+  Parameters: {"restaurant"=>{}, "action"=>"update", "id"=>"953125641", "controller"=>"restaurants"}
+  [4;35;1mRestaurant Load (0.000615)[0m   [0mSELECT * FROM "restaurants" WHERE ("restaurants"."id" = 953125641) [0m
+Redirected to http://test.host/restaurants/953125641
+Completed in 0.00247 (404 reqs/sec) | DB: 0.00093 (37%) | 302 Found [http://test.host/restaurants/953125641?]

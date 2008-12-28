@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /~claco/BurningPlate/django/
+RewriteRule dispatch\.fcgi - [L]
+RewriteRule (.*) BurningPlate/dispatch.fcgi/$1 [L]
